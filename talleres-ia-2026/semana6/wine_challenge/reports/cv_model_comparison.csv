@@ -1,0 +1,4 @@
+model,cv_roc_auc_ovr,cv_accuracy,cv_f1_macro,best_params
+logistic_regression,1.0,0.9719211822660098,0.9722233390964041,"{""classifier__C"": 10}"
+knn,0.9996732026143791,0.9578817733990148,0.9586613592805543,"{""classifier__n_neighbors"": 15, ""classifier__weights"": ""distance""}"
+decision_tree,0.9356388520320408,0.9022167487684729,0.9057585898643914,"{""classifier__criterion"": ""gini"", ""classifier__max_depth"": 4, ""classifier__min_samples_split"": 2}"

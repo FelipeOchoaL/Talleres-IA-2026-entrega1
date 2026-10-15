@@ -1,0 +1,11 @@
+{
+  "champion": "logistic_regression",
+  "selection_metric": "roc_auc_ovr",
+  "cv_folds": 5,
+  "cv_score": 1.0,
+  "cv_accuracy": 0.9719211822660098,
+  "cv_f1_macro": 0.9722233390964041,
+  "best_params": {
+    "classifier__C": 10
+  }
+}
